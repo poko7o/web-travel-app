@@ -1,0 +1,95 @@
+.post {
+    width: 385px;
+    height: 600px;
+    margin: 0px 25px 40px 25px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .postsItem {
+    width: 40%;
+    height: 50%;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+  } */
+  
+  /* .postImg {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+  } */
+  
+  .postImg {
+    width: 90%;
+    height: 80%;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .postCategories {
+    margin-top: 5px;
+  }
+  
+  .postCategory:nth-child(1) {
+    margin-left: 7px;
+  }
+  
+  .postCategory:nth-child(2) {
+    margin-left: 10px;
+  }
+  
+  .postCategory {
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: #999;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  
+  .postTitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .postDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+  }
+  
+  .postDesc {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    padding: 22px;
+    text-align: justify;
+    /* for showing just a part of desc text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  

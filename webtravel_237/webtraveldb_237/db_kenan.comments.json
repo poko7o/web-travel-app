@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "65ccef20f24663150b8e2ae1"
+  },
+  "username": "test",
+  "comment": "Ostavio sam komentar",
+  "blog": {
+    "$oid": "65cceebbf24663150b8e2ab2"
+  },
+  "createdAt": {
+    "$date": "2024-02-14T16:49:36.195Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-14T16:49:36.195Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ccef28f24663150b8e2ae8"
+  },
+  "username": "test",
+  "comment": "I jos jedan komentar",
+  "blog": {
+    "$oid": "65cceebbf24663150b8e2ab2"
+  },
+  "createdAt": {
+    "$date": "2024-02-14T16:49:44.031Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-14T16:49:44.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce28e4a4cee8570abe91bc"
+  },
+  "username": "keno",
+  "comment": "I od mene komentar",
+  "blog": {
+    "$oid": "65cceebbf24663150b8e2ab2"
+  },
+  "createdAt": {
+    "$date": "2024-02-15T15:08:20.046Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-15T15:08:20.046Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65ce2909a4cee8570abe91d5"
+  },
+  "username": "Huso",
+  "comment": "I od Huse jedan komentar",
+  "blog": {
+    "$oid": "65ce2836a4cee8570abe91a3"
+  },
+  "createdAt": {
+    "$date": "2024-02-15T15:08:57.927Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-15T15:08:57.927Z"
+  },
+  "__v": 0
+}]

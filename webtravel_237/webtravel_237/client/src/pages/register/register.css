@@ -1,0 +1,61 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("https://image.freepik.com/free-photo/woman-using-facebook-application-mobile-near-man-wearing-smart-watch_23-2147844556.jpg");
+    background-size: cover;
+  }
+  
+  .registerTitle {
+    font-size: 70px;
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 50%;
+  }
+  
+  .registerForm > label {
+    margin: 10px 0;
+  }
+  
+  .registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 100px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  
